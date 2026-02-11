@@ -1,6 +1,7 @@
 package com.my.spring.model;
 
 
+
 public class Address {
 	
 	
@@ -41,7 +42,3 @@ public class Address {
 	
 
 }
-
-	
-
-
