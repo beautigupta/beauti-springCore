@@ -15,7 +15,7 @@
 	<bean name="emp1" class="com.my.spring.model.Employee" autowire="byType" scope="prototype">
 		<property name="id" value="1011" />
 		<property name="name" value="beauti" />
-		<property name="gender" value="feSmale" />
+		<property name="gender" value="female" />
 	</bean>
 
 
