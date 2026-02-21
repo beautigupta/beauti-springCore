@@ -14,10 +14,15 @@ public class main {
 		ApplicationContext ioc = new AnnotationConfigApplicationContext("com.my.spring.model");
 
 		Employee emp = ioc.getBean(Employee.class);
+		Address add = ioc.getBean(Address.class);
+		
+		emp.setName("Ankush");
 		
 		System.out.println(emp);
+		System.out.println(add);
 		
 		
 	}
 
 }
+
